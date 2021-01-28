@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.tela{
+    display: flex;
+    height: 100vh;
+}
+
+.ladoEsquerdo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ladoEsquerdo img{
+    max-width: 300px;
+    height: auto;
+}
+
+.ladoDireito{
+    width:  400px;
+    background-color: #dddddd;
+    padding: 50px;
+}
+
+.ladoDireito label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.ladoDireito input{
+    width:  100%;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    outline: 0;
+}
+
+.error{
+    font-size: 11px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
